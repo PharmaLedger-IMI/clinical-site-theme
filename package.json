@@ -1,0 +1,22 @@
+{
+	"name": "clinical-site-theme",
+	"version": "1.0.0",
+	"description": "",
+	"main": " ",
+	"scripts": {
+		"build-dossier": "node ./node_modules/octopus/scripts/buildDossier.js --bundles=./../../privatesky/psknode/bundles"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/PharmaLedger-IMI/clinical-site-theme.git"
+	},
+	"author": "",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/PharmaLedger-IMI/clinical-site-theme/issues"
+	},
+	"homepage": "https://github.com/PharmaLedger-IMI/clinical-site-theme#readme",
+	"dependencies": {
+		"octopus": "git+http://github.com/privatesky/octopus.git"
+	}
+}
