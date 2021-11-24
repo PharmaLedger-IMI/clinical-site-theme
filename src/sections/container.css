@@ -159,6 +159,19 @@ webc-app-container .container {
     column-gap: 1.5rem;
 }
 
+
+.grid-two-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.grid-four-columns {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 15px;
+}
+
 /* FROM psk-card - refactor this during webcardinal migration refactor *//* clean old style inherited from bootstrap */
 
 psk-card,
@@ -675,11 +688,3 @@ progress, progress[role] {
     -webkit-animation: bar-fill 2s;
     width: 0;
 }
-
-
-.grid-two-columns {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 15px;
-}
-
