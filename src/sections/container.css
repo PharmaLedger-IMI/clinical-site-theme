@@ -135,6 +135,24 @@ webc-app-container .container {
     padding: 0 15%;
 }
 
+.form-container {
+    display: grid;
+    width: 100%;
+    row-gap: 1rem;
+    margin: 0;
+    padding: 2% 10%;
+    height: 100%;
+    grid-auto-rows: min-content;
+}
+
+.form-row {
+    display: flex;
+    height: auto;
+    width: 100%;
+    column-gap: 1rem;
+    flex-wrap: nowrap;
+}
+
 @media (max-width: 1199px) {
     .small-container {
         padding: 0 10%;
@@ -145,6 +163,14 @@ webc-app-container .container {
 @media (max-width: 991px) {
     .small-container {
         padding: 0 0.75rem;
+    }
+
+    .form-container {
+        padding: 0 2%;
+    }
+
+    .form-container .form-row {
+        flex-direction: column;
     }
 }
 

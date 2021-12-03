@@ -2,6 +2,22 @@ img {
     max-width: 100%;
 }
 
+img.img-xl {
+    max-width: 360px;
+}
+
+img.img-l {
+    max-width: 240px;
+}
+
+img.img-m {
+    max-width: 180px;
+}
+
+img.img-s {
+    max-width: 120px;
+}
+
 .ed-control-image img {
     vertical-align: middle;
     border-radius: 10px;
