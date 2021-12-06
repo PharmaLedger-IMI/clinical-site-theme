@@ -79,3 +79,41 @@
     height: 55px;
     width: 160px;
 }
+
+.link-button {
+    background-color: white;
+    border: white;
+    box-shadow: none;
+    border-radius: 0;
+    text-align: left;
+    font-size: 16px;
+    color: #2F80ED;
+}
+
+.notification-button {
+    background-color: white;
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.25rem;
+    border-radius: 0.25rem;
+    width: 75%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+@media screen and (max-width: 991px) {
+    .notification-button {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 759px) {
+    .notification-button {
+        height: 3.5rem;
+    }
+}
