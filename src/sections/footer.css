@@ -1,6 +1,6 @@
 .eu-container {
-    display: grid;
-    grid-template-columns: 1fr 5fr;
+    display: flex;
+    flex-direction: row;
     align-items: center;
     font-weight: 600;
     color: #FFFFFF;
@@ -9,17 +9,23 @@
 
 .left-image-eu {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
+    flex:1;
+}
+.left-image-eu img{
+    width: 96px;
+    border:1px solid #FFF;
 }
 
 .right-text-eu {
     display: flex;
+    padding:0 1.5rem;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     text-align: center;
-    row-gap: 0.5rem;
-    width: 80%;
-    font-size: 18px;
+    font-size: 1rem;
+    line-height: 1rem;
+    width: 100%;
 }

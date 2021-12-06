@@ -51,6 +51,15 @@
     transition: all ease-in 0.1s;
 }
 
+
+.button-group-wrapper button[disabled],
+.button-group-wrapper button[disabled]:hover{
+    background: #C8C8C8;
+    border:#A5A5A5;
+    color:#FFF;
+
+}
+
 .button-group-wrapper button:hover,
 .button-group-wrapper button:active,
 .button-group-wrapper button:focus {
