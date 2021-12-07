@@ -102,3 +102,8 @@ label[data-tag]:focus {
     color: #000000;
     border-color: var(--secondary);
 }
+
+.color-red {
+    color: red !important;
+    font-weight: bold;
+}
