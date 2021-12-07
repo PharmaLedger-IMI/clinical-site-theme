@@ -2,7 +2,6 @@ label.option,
 main .row-wrapper label {
     padding: 0 0.5rem 0 0;
     margin: 0.5rem 0 0.5rem 0.5rem;
-    border-right: 1px solid;
 }
 
 label.option:last-child {
@@ -31,8 +30,6 @@ h5.title {
     font-size: 1.5rem;
     text-align: center;
     padding: 1rem;
-    margin-top: 0.25rem;
-    border-top: 1px solid var(--primary);
     color: var(--secondary);
 }
 
@@ -42,6 +39,13 @@ h5.generic-title {
     padding: 1rem;
     margin-top: 0.25rem;
     color: var(--secondary);
+}
+
+h5.subtitle {
+    font-size: 1.25rem;
+    text-align: left;
+    padding: 0.25rem 0.5rem;
+    color: var(--primary);
 }
 
 .no-data {
@@ -67,10 +71,6 @@ h5.generic-title {
     text-decoration: underline;
 }
 
-main .row-wrapper label {
-    border: none;
-}
-
 main .row-wrapper label:first-child {
     display: inline-block;
     max-width: 90%;
@@ -84,4 +84,21 @@ main .row-wrapper label:first-child {
 main .row-wrapper.grid-equal label:first-child {
     text-align: center;
     max-width: 100%;
+}
+
+label[data-tag] {
+    padding: 0.125rem 1.75rem;
+    border-radius: 0.5rem;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    color: var(--primary);
+    background: transparent;
+    cursor: pointer;
+}
+
+label[data-tag]:hover,
+label[data-tag]:active,
+label[data-tag]:focus {
+    color: #000000;
+    border-color: var(--secondary);
 }

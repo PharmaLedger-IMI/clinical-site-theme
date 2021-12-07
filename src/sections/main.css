@@ -1,8 +1,8 @@
-main .row-wrapper:nth-child(odd) {
+main>.row-wrapper:nth-child(odd) {
     background-color: rgba(0, 135, 152, 0.19);
 }
 
-main .row-wrapper:nth-child(even) {
+main>.row-wrapper:nth-child(even) {
     background-color: rgba(0, 52, 91, 0.3);
 }
 
@@ -190,10 +190,6 @@ object {
 
 .rows-as-list {
     display: grid !important;
-}
-
-button {
-    border-radius: 5px !important;
 }
 
 hr {
