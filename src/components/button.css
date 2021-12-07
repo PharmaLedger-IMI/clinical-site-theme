@@ -80,14 +80,21 @@
     width: 160px;
 }
 
-.link-button {
-    background-color: white;
-    border: white;
-    box-shadow: none;
-    border-radius: 0;
+.link-button,
+.link-button:focus,
+.link-button:focus:hover{
+    background: none;
+    border:none;
+    box-shadow: none !important;
+    border-radius: 0 !important;
     text-align: left;
     font-size: 16px;
     color: #2F80ED;
+    margin: 0.25rem;
+    outline: none;
+}
+.link-button:hover{
+    color: #2773d9
 }
 
 .notification-button {
