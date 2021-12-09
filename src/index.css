@@ -10,8 +10,10 @@
 @import url("sections/form.css");
 @import url("sections/ediary.css");
 @import url("sections/questionnaire.css");
+@import url("sections/search.css");
 
 @import url("components/button.css");
+@import url("components/canvas.css");
 @import url("components/chart.css");
 @import url("components/icon.css");
 @import url("components/image.css");

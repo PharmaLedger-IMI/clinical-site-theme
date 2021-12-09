@@ -41,7 +41,7 @@ webc-app-container .container {
     border-bottom-right-radius: 1rem;
     -moz-border-radius-bottomright: 1rem;
     -moz-border-radius-bottomleft: 1rem;
-    position:relative;
+    position: relative;
 }
 
 .container.before {
@@ -157,7 +157,7 @@ webc-app-container .container {
     padding: 3rem 4rem;
 }
 
-.notification-button-wrapper{
+.notification-button-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;

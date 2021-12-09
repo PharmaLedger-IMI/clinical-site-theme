@@ -4,3 +4,8 @@
     margin: 0;
     width: 100%;
 }
+
+textarea {
+    width: 700px;
+    height: 100px;
+}
