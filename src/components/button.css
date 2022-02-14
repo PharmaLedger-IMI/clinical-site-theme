@@ -135,6 +135,19 @@
     width: 150px;
 }
 
+.previous-next-button {
+    background-color: #008798;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 11px;
+    border-radius: 5px;
+    margin-left: 25px;
+    height: 20px;
+    width: 90px;
+}
+
 @media screen and (max-width: 991px) {
     .notification-button {
         width: 100%;
