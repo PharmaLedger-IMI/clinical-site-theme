@@ -110,7 +110,9 @@ webc-app-container .container {
 
 .container.main-container main {
     overflow-y: auto;
-    grid-auto-flow: row;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .container.main-container header {
@@ -137,6 +139,10 @@ webc-app-container .container {
     padding: 2% 10%;
     height: 100%;
     grid-auto-rows: min-content;
+}
+/* TO be unified around entire ssapp*/
+main .form-container{
+    height: auto;
 }
 
 .form-row {
@@ -176,7 +182,7 @@ webc-app-container .container {
     }
 
     .form-container {
-        padding: 0 2%;
+        padding: 2%;
     }
 
     .form-container .form-row {
