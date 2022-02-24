@@ -12,6 +12,6 @@ textarea {
 
 .summary-tables {
     width: 500px;
-    height: 100px;
+    height: auto;
     margin: 0 auto;
 }
