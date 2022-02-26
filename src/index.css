@@ -19,6 +19,7 @@
 @import url("components/image.css");
 @import url("components/label.css");
 @import url("components/table.css");
+@import url("components/datatable.css");
 
 :root {
     --primary: #00345b;

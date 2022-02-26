@@ -1,0 +1,51 @@
+.dc-datatable .webc-datatable--container {
+    display: grid;
+    /* 3 columns */
+    grid-template-columns: auto auto auto auto;
+    align-content: start;
+    min-height: 425px;
+}
+.dc-datatable .webc-datatable--container > * {
+    padding: 0.5rem;
+    border-bottom: 1px solid #CDCDCD;
+}
+.dc-datatable .webc-datatable--container > .webc-datatable--header {
+    font-weight: bold;
+    border-color: #2F2F2F;
+    margin-bottom: 0.5rem;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding: 0.5rem 0 0.5rem 0;
+}
+.dc-datatable .webc-datatable--container webc-spinner {
+    align-self: center;
+}
+.dc-datatable .webc-datatable--container > *:not(.webc-datatable--header):nth-last-child(-n+3) {
+    border-bottom: none;
+}
+.dc-datatable .webc-datatable--container > div:not(.webc-datatable--header):nth-child(3n) {
+    font-family: monospace;
+}
+.dc-datatable .controls {
+    display: flex;
+    justify-content: center;
+}
+.dc-datatable .controls > button {
+    margin: 1rem 0.5rem 0 0;
+    border: 1px solid transparent;
+    transition: border-color 200ms ease-in-out;
+}
+
+
+.dc-datatable webc-datatable div.cell{
+   background: #cfe8eb;
+}
+
+.dc-datatable webc-datatable div.cell:nth-child(8n+1),
+.dc-datatable webc-datatable div.cell:nth-child(8n+2),
+.dc-datatable webc-datatable div.cell:nth-child(8n+3),
+.dc-datatable webc-datatable div.cell:nth-child(8n+4)
+{
+    background: #c2ced8;
+    margin:0.25rem 0;
+}
