@@ -12,6 +12,7 @@
 @import url("sections/questionnaire.css");
 @import url("sections/search.css");
 
+
 @import url("components/button.css");
 @import url("components/canvas.css");
 @import url("components/chart.css");
@@ -20,6 +21,7 @@
 @import url("components/label.css");
 @import url("components/table.css");
 @import url("components/datatable.css");
+@import url("components/breadcrumb.css");
 
 :root {
     --primary: #00345b;
