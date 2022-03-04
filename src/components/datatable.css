@@ -47,8 +47,14 @@
 
 .dt-3-col webc-datatable div.cell:nth-child(6n+1),
 .dt-3-col webc-datatable div.cell:nth-child(6n+2),
-.dt-3-col webc-datatable div.cell:nth-child(6n+3)
+.dt-3-col webc-datatable div.cell:nth-child(6n+3),
 
+.dt-6-col webc-datatable div.cell:nth-child(12n+1),
+.dt-6-col webc-datatable div.cell:nth-child(12n+2),
+.dt-6-col webc-datatable div.cell:nth-child(12n+3),
+.dt-6-col webc-datatable div.cell:nth-child(12n+4),
+.dt-6-col webc-datatable div.cell:nth-child(12n+5),
+.dt-6-col webc-datatable div.cell:nth-child(12n+6)
 
 {
     background: #c2ced8;
@@ -59,7 +65,9 @@
     grid-template-columns: 1fr  1fr 300px;
 }
 
-
+.evidence-datatable .webc-datatable--container{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
 
 .cs-datatable .webc-datatable--container {
     display: grid;
