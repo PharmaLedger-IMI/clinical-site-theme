@@ -26,4 +26,5 @@
 :root {
     --primary: #00345b;
     --secondary: #008798;
+    --webc-secondary-background: #008798 !important;
 }

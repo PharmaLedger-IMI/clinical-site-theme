@@ -106,6 +106,27 @@
     color: #2773d9
 }
 
+button.link.option{
+    padding: 0.125rem 0.75rem;
+    border-radius: 0.5rem;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    color: var(--primary);
+    background: transparent;
+    cursor: pointer;
+    text-decoration:none
+}
+
+button.link.option[disabled]{
+    pointer-events: none;
+    color:#777;
+}
+
+button.link.option:hover{
+    color: #000000;
+    border-color: var(--secondary);
+}
+
 .notification-button {
     background-color: white;
     border: 1px solid var(--primary);

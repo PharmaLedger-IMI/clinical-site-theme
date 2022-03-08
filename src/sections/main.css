@@ -230,4 +230,55 @@ hr {
 
 
 
-/* END old general.css from econsent */
+
+/* study statuses actions*/
+
+.study-status-cell{
+    position: relative;
+    cursor: pointer;
+    display: flex;
+}
+.study-status-cell i{
+    margin-left: 0.5rem;
+}
+
+
+.study-status-actions label.separator:last-of-type{
+    display: none;
+}
+
+.study-status-cell .study-status-actions{
+    display: none;
+    position: absolute;
+}
+
+
+.study-status-cell .study-status-actions:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    width: 0;
+    height: 0;
+    border-right: 5px solid #008798;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+}
+
+.study-status-cell:hover .study-status-actions{
+    z-index: 200;
+    display: flex;
+    background: white;
+    padding: 0.75rem 0.75rem 0.25rem 0.75rem;
+    margin-left: 1.5rem;
+    border: 1px solid var(--secondary);
+    border-radius: 5px;
+    box-shadow: 2px 3px 2px 0 #777;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    margin-top: -50%;
+    bottom: 50%;
+    transform: translateY(50%);
+}
