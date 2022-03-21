@@ -224,3 +224,28 @@ main .form-container{
     grid-template-columns: auto auto auto auto;
     grid-gap: 15px;
 }
+
+.view-graphics-btn {
+    background: var(--secondary);
+    border-radius: 0.35rem;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    text-decoration: none;
+    min-height: 4rem;
+    width: 10rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border: none;
+}
+
+.graph-container {
+    height: 400px;
+    width: 400px;
+}
+.parent-graphs-container {
+    display:flex;
+    justify-content: space-around;
+}
