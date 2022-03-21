@@ -31,7 +31,7 @@
 }
 
 
-.common-datatable webc-datatable div.cell{
+.common-datatable webc-datatable div.cell {
    background: #cfe8eb;
    display: flex;
    align-items: center;
@@ -51,12 +51,22 @@
 .dt-6-col webc-datatable div.cell:nth-child(12n+3),
 .dt-6-col webc-datatable div.cell:nth-child(12n+4),
 .dt-6-col webc-datatable div.cell:nth-child(12n+5),
-.dt-6-col webc-datatable div.cell:nth-child(12n+6)
+.dt-6-col webc-datatable div.cell:nth-child(12n+6),
+
+.dt-8-col webc-datatable div.cell:nth-child(16n+1),
+.dt-8-col webc-datatable div.cell:nth-child(16n+2),
+.dt-8-col webc-datatable div.cell:nth-child(16n+3),
+.dt-8-col webc-datatable div.cell:nth-child(16n+4),
+.dt-8-col webc-datatable div.cell:nth-child(16n+5),
+.dt-8-col webc-datatable div.cell:nth-child(16n+6),
+.dt-8-col webc-datatable div.cell:nth-child(16n+7),
+.dt-8-col webc-datatable div.cell:nth-child(16n+8)
 
 {
     background: #c2ced8;
     margin:0.25rem 0;
 }
+
 
 .notes-datatable .webc-datatable--container{
     grid-template-columns: 100px 3fr 5fr;
@@ -80,3 +90,21 @@
 .webc-datatable--container label[data-tag]{
     padding: 0.125rem 0.75rem;
 }
+
+.trial-management .webc-datatable--container {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr 2fr 3fr;
+    align-content: start;
+    min-height: 325px;
+}
+
+.trial-management.common-datatable .webc-datatable--container > .webc-datatable--header {
+    border-bottom: 1px solid #CDCDCD;
+    padding: 0.5rem;
+}
+
+ .trial-management.common-datatable webc-datatable div.cell {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+ }
