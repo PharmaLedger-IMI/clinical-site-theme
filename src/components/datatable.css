@@ -53,6 +53,14 @@
 .dt-6-col webc-datatable div.cell:nth-child(12n+5),
 .dt-6-col webc-datatable div.cell:nth-child(12n+6),
 
+.dt-7-col webc-datatable div.cell:nth-child(14n+1),
+.dt-7-col webc-datatable div.cell:nth-child(14n+2),
+.dt-7-col webc-datatable div.cell:nth-child(14n+3),
+.dt-7-col webc-datatable div.cell:nth-child(14n+4),
+.dt-7-col webc-datatable div.cell:nth-child(14n+5),
+.dt-7-col webc-datatable div.cell:nth-child(14n+6),
+.dt-7-col webc-datatable div.cell:nth-child(14n+7),
+
 .dt-8-col webc-datatable div.cell:nth-child(16n+1),
 .dt-8-col webc-datatable div.cell:nth-child(16n+2),
 .dt-8-col webc-datatable div.cell:nth-child(16n+3),
@@ -60,7 +68,18 @@
 .dt-8-col webc-datatable div.cell:nth-child(16n+5),
 .dt-8-col webc-datatable div.cell:nth-child(16n+6),
 .dt-8-col webc-datatable div.cell:nth-child(16n+7),
-.dt-8-col webc-datatable div.cell:nth-child(16n+8)
+.dt-8-col webc-datatable div.cell:nth-child(16n+8),
+
+.dt-9-col webc-datatable div.cell:nth-child(18n+1),
+.dt-9-col webc-datatable div.cell:nth-child(18n+2),
+.dt-9-col webc-datatable div.cell:nth-child(18n+3),
+.dt-9-col webc-datatable div.cell:nth-child(18n+4),
+.dt-9-col webc-datatable div.cell:nth-child(18n+5),
+.dt-9-col webc-datatable div.cell:nth-child(18n+6),
+.dt-9-col webc-datatable div.cell:nth-child(18n+7),
+.dt-9-col webc-datatable div.cell:nth-child(18n+8),
+.dt-9-col webc-datatable div.cell:nth-child(18n+9)
+
 
 {
     background: #c2ced8;
@@ -108,3 +127,31 @@
     align-items: center;
     justify-content: flex-start;
  }
+
+ .trial-participant .webc-datatable--container {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 3fr;
+    align-content: start;
+    min-height: 325px;
+}
+
+.econsents .webc-datatable--container {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr 3fr;
+    align-content: start;
+    min-height: 325px;
+}
+
+.econsents-versions .webc-datatable--container {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 3fr;
+    align-content: start;
+    min-height: 325px;
+}
+
+.visits-procedures .webc-datatable--container {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 3fr;
+    align-content: start;
+    min-height: 325px;
+}
