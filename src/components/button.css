@@ -169,6 +169,20 @@ button.link.option:hover{
     width: 90px;
 }
 
+.add-answer-button {
+    background-color: #008798;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: auto;
+    height: 38px;
+    width: 100px;
+}
+
 .prom-prem-tab-buttons {
     border: none;
     background-color: #008798;
