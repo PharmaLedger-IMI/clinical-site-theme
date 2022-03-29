@@ -169,6 +169,34 @@ button.link.option:hover{
     width: 90px;
 }
 
+.prom-prem-tab-buttons {
+    border: none;
+    background-color: #008798;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    width: auto;
+    margin-right: 100px;
+    transition: 0.3s;
+}
+
+.questions-tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #008798;
+}
+
+.questions-tab button:hover {
+    background: #C8C8C8;
+    border: #A5A5A5;
+    color: #FFF;
+}
+
+.questions-tab button.active {
+    background-color: #ccc;
+}
+
 @media screen and (max-width: 991px) {
     .notification-button {
         width: 100%;

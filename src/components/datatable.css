@@ -99,6 +99,10 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
+.questions-datatable .webc-datatable--container{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 .cs-datatable .webc-datatable--container {
     display: grid;
     grid-template-columns: 3fr 2fr 1.5fr 400px;
