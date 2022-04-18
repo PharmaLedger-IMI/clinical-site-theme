@@ -36,6 +36,7 @@
    display: flex;
    align-items: center;
 }
+.dt-1-col webc-datatable div.cell:nth-child(2n+1),
 
 .dt-4-col webc-datatable div.cell:nth-child(8n+1),
 .dt-4-col webc-datatable div.cell:nth-child(8n+2),
@@ -96,11 +97,11 @@
 }
 
 .evidence-datatable .webc-datatable--container{
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(6, 1fr);
 }
 
 .questions-datatable .webc-datatable--container{
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .cs-datatable .webc-datatable--container {
@@ -116,7 +117,7 @@
 
 .trial-management .webc-datatable--container {
     display: grid;
-    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr 2fr 3fr;
+    grid-template-columns: repeat(7, 2fr) 3fr;
     align-content: start;
     min-height: 325px;
 }
@@ -134,28 +135,35 @@
 
  .trial-participant .webc-datatable--container {
     display: grid;
-    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 3fr;
+    grid-template-columns: repeat(5, 2fr) 3fr;
     align-content: start;
     min-height: 325px;
 }
 
 .econsents .webc-datatable--container {
     display: grid;
-    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr 3fr;
+    grid-template-columns: repeat(6, 2fr) 3fr;
     align-content: start;
     min-height: 325px;
 }
 
-.econsents-versions .webc-datatable--container {
+.econsents-versions-table .webc-datatable--container {
     display: grid;
-    grid-template-columns: 2fr 2fr 2fr 2fr 3fr;
+    grid-template-columns: repeat(3, 2fr) 3fr;
+    align-content: start;
+    min-height: 325px;
+}
+
+.econsents-versions-table .webc-datatable--container {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr) 3fr;
     align-content: start;
     min-height: 325px;
 }
 
 .visits-procedures .webc-datatable--container {
     display: grid;
-    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 3fr;
+    grid-template-columns: repeat(8, 2fr) 3fr;
     align-content: start;
     min-height: 325px;
 }

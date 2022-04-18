@@ -15,10 +15,13 @@ main>.row-wrapper:nth-child(even) {
     padding: 0 0.75rem;
 }
 
+.assigned-devices {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
 .grid-equal {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
-
 
 /* start old general.css from econsent */
 
