@@ -1,6 +1,5 @@
 .common-datatable .webc-datatable--container {
     display: grid;
-    grid-template-columns: auto auto auto auto;
     align-content: start;
     min-height: 325px;
 }
@@ -30,13 +29,11 @@
     transition: border-color 200ms ease-in-out;
 }
 
-
 .common-datatable webc-datatable div.cell {
    background: #cfe8eb;
    display: flex;
    align-items: center;
 }
-.dt-1-col webc-datatable div.cell:nth-child(2n+1),
 
 .dt-4-col webc-datatable div.cell:nth-child(8n+1),
 .dt-4-col webc-datatable div.cell:nth-child(8n+2),
@@ -166,4 +163,11 @@
     grid-template-columns: repeat(8, 2fr) 3fr;
     align-content: start;
     min-height: 325px;
+}
+
+.cell[data-empty] {
+    height: 3rem;
+    pointer-events: none;
+    opacity:0;
+    border:none;
 }
