@@ -40,6 +40,9 @@
 .dt-4-col webc-datatable div.cell:nth-child(8n+3),
 .dt-4-col webc-datatable div.cell:nth-child(8n+4),
 
+.dt-2-col webc-datatable div.cell:nth-child(4n+1),
+.dt-2-col webc-datatable div.cell:nth-child(4n+2),
+
 .dt-3-col webc-datatable div.cell:nth-child(6n+1),
 .dt-3-col webc-datatable div.cell:nth-child(6n+2),
 .dt-3-col webc-datatable div.cell:nth-child(6n+3),
@@ -99,6 +102,10 @@
 
 .questions-datatable .webc-datatable--container{
     grid-template-columns: repeat(3, 1fr);
+}
+
+.answers-datatable .webc-datatable--container{
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .cs-datatable .webc-datatable--container {
