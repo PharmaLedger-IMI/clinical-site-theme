@@ -158,6 +158,13 @@
     min-height: 325px;
 }
 
+.consents-table .webc-datatable--container {
+    display: grid;
+    grid-template-columns: 3fr repeat(4, 2fr);
+    align-content: start;
+    min-height: 325px;
+}
+
 .econsents-versions-table .webc-datatable--container {
     display: grid;
     grid-template-columns: repeat(4, 2fr) 3fr;
