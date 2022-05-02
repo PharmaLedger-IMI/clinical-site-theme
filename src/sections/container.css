@@ -115,6 +115,10 @@ webc-app-container .container {
     justify-content: space-between;
 }
 
+.container.main-container main.items-container {
+    justify-content: normal;
+}
+
 .container.main-container header {
     background: #FFFFFF;
     position: sticky;
