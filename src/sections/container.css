@@ -253,3 +253,8 @@ main .form-container{
     display:flex;
     justify-content: space-around;
 }
+
+.subtitle {
+    font-size: 1.5rem;
+    color: var(--secondary);
+}

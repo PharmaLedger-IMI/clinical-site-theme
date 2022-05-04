@@ -151,9 +151,9 @@
     min-height: 325px;
 }
 
-.econsents-versions-table .webc-datatable--container {
+.trial-participant-details .webc-datatable--container {
     display: grid;
-    grid-template-columns: repeat(3, 2fr) 3fr;
+    grid-template-columns: repeat(4, 2fr);
     align-content: start;
     min-height: 325px;
 }
