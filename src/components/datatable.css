@@ -104,6 +104,10 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
+.two-column-datatable .webc-datatable--container {
+    grid-template-columns: repeat(2, 1fr);
+}
+
 .answers-datatable .webc-datatable--container{
     grid-template-columns: repeat(4, 1fr);
 }
