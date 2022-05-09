@@ -48,6 +48,12 @@ h5.subtitle {
     color: var(--primary);
 }
 
+h5.checkbox-answers {
+    font-size: 1rem;
+    text-align: center;
+    color: var(--secondary);
+}
+
 .no-data {
     color: var(--secondary);
     font-size: 1.25rem;
