@@ -73,8 +73,28 @@ webc-app-container .container {
 
 .container.main-container {
     display: grid;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: auto auto 5fr;
     padding: 0 5%;
+}
+
+.container .main-container.common-2-rows-grid{
+    grid-template-rows: auto 6fr;
+}
+
+.container.main-container.manage-devices{
+    grid-template-rows: auto 6fr 1fr;
+}
+
+.container.main-container.common-3-rows-grid{
+    grid-template-rows: auto 1fr 6fr;
+}
+
+.container.main-container.stepper-3-rows-grid{
+    grid-template-rows: auto 6fr 1fr;
+}
+
+.container.main-container.common-4-rows-grid{
+    grid-template-rows: auto auto 6fr auto;
 }
 
 .container.main-container,
@@ -112,7 +132,6 @@ webc-app-container .container {
     overflow-y: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .container.main-container main.items-container {

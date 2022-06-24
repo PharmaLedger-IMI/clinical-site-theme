@@ -87,6 +87,9 @@
     margin:0.25rem 0;
 }
 
+.dc-datatable .webc-datatable--container{
+    grid-template-columns: auto auto auto auto;
+}
 
 .notes-datatable .webc-datatable--container{
     grid-template-columns: 100px 3fr 5fr;
