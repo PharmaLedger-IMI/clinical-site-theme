@@ -1,7 +1,6 @@
 .form-group {
     display: flex;
     flex-direction: column;
-    margin: 0;
     width: 100%;
 }
 
@@ -14,4 +13,14 @@ textarea {
     width: 500px;
     height: auto;
     margin: 0 auto;
+}
+
+.procedure-details-item {
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    width: 70%;
+}
+
+.procedure-details-item.form-control {
+    border-radius: 0.15rem;
 }

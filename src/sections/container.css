@@ -154,6 +154,16 @@ webc-app-container .container {
     padding: 0 15%;
 }
 
+.table-container {
+    height: 700px;
+}
+
+.table-content-container {
+    height: 350px;
+    overflow: auto;
+}
+
+
 .form-container {
     display: grid;
     width: 100%;
