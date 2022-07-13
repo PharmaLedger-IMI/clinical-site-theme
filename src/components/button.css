@@ -39,6 +39,10 @@ button[disabled]{
     display: none;
 }
 
+.button-group-wrapper div.notifications-btn {
+    display: block;
+}
+
 .button-group-wrapper div[data-if] {
     display: block;
 }
