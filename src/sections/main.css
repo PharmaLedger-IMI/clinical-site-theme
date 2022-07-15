@@ -226,8 +226,10 @@ hr {
 .green {
     background-color: green;
 }
-
-
+/* bootstrap badge*/
+.badge{
+    font-size: 14px;
+}
 
 
 /* study statuses actions*/
@@ -281,3 +283,4 @@ hr {
     bottom: 50%;
     transform: translateY(50%);
 }
+
