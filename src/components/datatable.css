@@ -187,6 +187,13 @@
     min-height: 325px;
 }
 
+.device-assignation-table .webc-datatable--container {
+    display: grid;
+    grid-template-columns: repeat(5, 1.5fr) 3fr;
+    align-content: start;
+    min-height: 325px;
+}
+
 .visits-procedures .webc-datatable--container {
     display: grid;
     grid-template-columns: repeat(8, 2fr) 3fr;
