@@ -189,7 +189,7 @@
 
 .device-assignation-table .webc-datatable--container {
     display: grid;
-    grid-template-columns: repeat(5, 1.5fr) 3fr;
+    grid-template-columns: repeat(4, 1.25fr) 2.5fr 2.25fr;
     align-content: start;
     min-height: 325px;
 }
