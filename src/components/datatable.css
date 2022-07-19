@@ -47,6 +47,12 @@
 .dt-3-col webc-datatable div.cell:nth-child(6n+2),
 .dt-3-col webc-datatable div.cell:nth-child(6n+3),
 
+.dt-5-col webc-datatable div.cell:nth-child(10n+1),
+.dt-5-col webc-datatable div.cell:nth-child(10n+2),
+.dt-5-col webc-datatable div.cell:nth-child(10n+3),
+.dt-5-col webc-datatable div.cell:nth-child(10n+4),
+.dt-5-col webc-datatable div.cell:nth-child(10n+5),
+
 .dt-6-col webc-datatable div.cell:nth-child(12n+1),
 .dt-6-col webc-datatable div.cell:nth-child(12n+2),
 .dt-6-col webc-datatable div.cell:nth-child(12n+3),
@@ -190,6 +196,12 @@
 .device-assignation-table .webc-datatable--container {
     display: grid;
     grid-template-columns: repeat(4, 1.25fr) 2.5fr 2.25fr;
+    align-content: start;
+    min-height: 325px;
+}
+.health-data-table .webc-datatable--container {
+    display: grid;
+    grid-template-columns: repeat(2, 1.50fr) 4.5fr 2.50fr;
     align-content: start;
     min-height: 325px;
 }
