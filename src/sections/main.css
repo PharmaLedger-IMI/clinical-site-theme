@@ -284,3 +284,7 @@ hr {
     transform: translateY(50%);
 }
 
+
+webc-spinner{
+    background: rgba(64, 149, 131, 0.15);
+}
