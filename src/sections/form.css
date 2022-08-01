@@ -24,3 +24,9 @@ textarea {
 .procedure-details-item.form-control {
     border-radius: 0.15rem;
 }
+
+.required:after {
+    content: " *";
+    color: red;
+    font-weight: 100;
+}
