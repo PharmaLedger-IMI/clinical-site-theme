@@ -29,3 +29,7 @@
     --secondary: #008798;
     --webc-secondary-background: #008798 !important;
 }
+
+.questionnaires-container webc-modal {
+    --max-width: 70% !important;
+}

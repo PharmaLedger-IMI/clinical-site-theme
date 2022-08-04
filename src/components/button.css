@@ -191,30 +191,32 @@ button.link.option:hover{
 
 .prom-prem-tab-buttons {
     border: none;
-    background-color: #008798;
-    color: white;
+    background: none;
+    color: #008798;
     text-align: center;
     text-decoration: none;
     font-size: 20px;
     width: auto;
-    margin-right: 100px;
-    transition: 0.3s;
+    margin-right: 2rem;
+    margin-bottom: -3px;
+    border-bottom:3px solid transparent;
+}
+
+.prom-prem-tab-buttons:hover{
+    background: #008798;
+    color:#FFF;
+    border-bottom:2px solid transparent;
+}
+.prom-prem-tab-buttons:focus{
+    outline: none;
+}
+
+.prom-prem-tab-buttons[active]{
+    border-bottom-color:#008798;
 }
 
 .questions-tab {
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #008798;
-}
-
-.questions-tab button:hover {
-    background: #C8C8C8;
-    border: #A5A5A5;
-    color: #FFF;
-}
-
-.questions-tab button.active {
-    background-color: #ccc;
+    border-bottom: 3px solid #CCC;
 }
 
 @media screen and (max-width: 991px) {
