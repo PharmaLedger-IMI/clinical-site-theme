@@ -99,6 +99,7 @@
 
 .notes-datatable .webc-datatable--container{
     grid-template-columns: 100px 3fr 5fr;
+    min-height: 60px;
 }
 
 .feedback-datatable .webc-datatable--container{
