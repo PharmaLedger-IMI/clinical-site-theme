@@ -35,17 +35,17 @@
    align-items: center;
 }
 
-.dt-4-col webc-datatable div.cell:nth-child(8n+1),
-.dt-4-col webc-datatable div.cell:nth-child(8n+2),
-.dt-4-col webc-datatable div.cell:nth-child(8n+3),
-.dt-4-col webc-datatable div.cell:nth-child(8n+4),
-
 .dt-2-col webc-datatable div.cell:nth-child(4n+1),
 .dt-2-col webc-datatable div.cell:nth-child(4n+2),
 
 .dt-3-col webc-datatable div.cell:nth-child(6n+1),
 .dt-3-col webc-datatable div.cell:nth-child(6n+2),
 .dt-3-col webc-datatable div.cell:nth-child(6n+3),
+
+.dt-4-col webc-datatable div.cell:nth-child(8n+1),
+.dt-4-col webc-datatable div.cell:nth-child(8n+2),
+.dt-4-col webc-datatable div.cell:nth-child(8n+3),
+.dt-4-col webc-datatable div.cell:nth-child(8n+4),
 
 .dt-5-col webc-datatable div.cell:nth-child(10n+1),
 .dt-5-col webc-datatable div.cell:nth-child(10n+2),
@@ -212,6 +212,10 @@
     grid-template-columns: repeat(8, 2fr) 3fr;
     align-content: start;
     min-height: 325px;
+}
+
+.notifications-datatable .webc-datatable--container{
+    grid-template-columns: 4fr 1fr;
 }
 
 .cell[data-empty] {
