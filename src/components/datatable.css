@@ -107,7 +107,7 @@
 }
 
 .evidence-datatable .webc-datatable--container{
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(5, 1fr);
 }
 
 .questions-datatable .webc-datatable--container{
