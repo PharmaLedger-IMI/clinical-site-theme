@@ -110,8 +110,12 @@
     grid-template-columns: repeat(5, 1fr);
 }
 
+.dynamic-consents-datatable .webc-datatable--container{
+      grid-template-columns: repeat(3, 1fr);
+}
+
 .questions-datatable .webc-datatable--container{
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 5fr 1fr 1fr;
 }
 
 .two-column-datatable .webc-datatable--container {
