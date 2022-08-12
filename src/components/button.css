@@ -47,6 +47,14 @@ button[disabled]{
     display: block;
 }
 
+.button-group-wrapper div.notifications-btn{
+    display: flex;
+}
+
+.parent-container {
+    width:100%;
+}
+
 .button-group-wrapper button {
     background: var(--secondary);
     border: 1px solid transparent;
