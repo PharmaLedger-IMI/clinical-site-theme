@@ -30,3 +30,13 @@ textarea {
     color: red;
     font-weight: 100;
 }
+
+.input-group[is-invalid] input{
+    border-color:red;
+}
+
+.input-group[is-invalid] .input-group-append button{
+    border-top-color: red;
+    border-right-color:red;
+    border-bottom-color:red;
+}
