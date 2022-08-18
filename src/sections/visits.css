@@ -1,4 +1,4 @@
-.visits-header{
+#visits-container .visits-header {
     border-top: 1px solid #008798;
     border-bottom: 1px solid #008798;
     padding: 10px;
@@ -9,14 +9,10 @@
     background: white;
 }
 
-.visit_procedure:nth-child(2n){
+#visits-container .visits-procedures:nth-child(2n) {
     background: #c2ced8;
 }
 
-.visit_procedure:nth-child(2n+1){
-    background: #cfe8eb;
-}
-
-.consents-lists{
+#visits-container .visits-procedures:nth-child(2n+1) {
     background: #cfe8eb;
 }
