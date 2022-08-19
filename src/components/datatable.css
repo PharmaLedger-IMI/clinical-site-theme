@@ -30,9 +30,9 @@
 }
 
 .common-datatable webc-datatable div.cell {
-   background: #cfe8eb;
-   display: flex;
-   align-items: center;
+    background: #cfe8eb;
+    display: flex;
+    align-items: center;
 }
 
 .dt-2-col webc-datatable div.cell:nth-child(4n+1),
@@ -111,7 +111,7 @@
 }
 
 .dynamic-consents-datatable .webc-datatable--container{
-      grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .questions-datatable .webc-datatable--container{
@@ -157,13 +157,13 @@
     padding: 0.5rem;
 }
 
- .trial-management.common-datatable webc-datatable div.cell {
+.trial-management.common-datatable webc-datatable div.cell {
     display: flex;
     align-items: center;
     justify-content: flex-start;
- }
+}
 
- .trial-participant .webc-datatable--container {
+.trial-participant .webc-datatable--container {
     display: grid;
     grid-template-columns: repeat(5, 2fr) 3fr;
     align-content: start;
@@ -186,7 +186,7 @@
 
 .consents-table .webc-datatable--container {
     display: grid;
-    grid-template-columns: 3fr repeat(4, 2fr);
+    grid-template-columns: 3fr repeat(3, 2fr) 3fr;
     align-content: start;
     min-height: 325px;
 }
