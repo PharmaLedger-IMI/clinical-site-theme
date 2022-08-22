@@ -23,6 +23,22 @@ main>.row-wrapper:nth-child(even) {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
+.grid-procedures-view {
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+.grid-procedures-view.row-wrapper {
+    text-align: start;
+}
+
+.complete-procedures {
+    display:flex;
+}
+
+.complete-procedures h6 {
+    color: var(--secondary);
+}
+
 /* start old general.css from econsent */
 
 .row {
