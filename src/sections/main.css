@@ -30,6 +30,9 @@ main>.row-wrapper:nth-child(even) {
 .grid-procedures-view.row-wrapper {
     text-align: start;
 }
+.column-gap-0 {
+    column-gap: 0
+}
 
 .complete-procedures {
     display:flex;
