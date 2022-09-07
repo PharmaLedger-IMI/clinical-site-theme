@@ -213,7 +213,7 @@ button.link.option:hover{
 .prom-prem-tab-buttons:hover{
     background: #008798;
     color:#FFF;
-    border-bottom:2px solid transparent;
+    border-bottom:3px solid transparent;
 }
 .prom-prem-tab-buttons:focus{
     outline: none;

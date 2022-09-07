@@ -78,7 +78,8 @@ body,
     transition: all 0.2s ease-in-out;
 }
 
-.assigned-tp {
+.assigned-tp,
+.frequency-type{
     background: #155724;
     color: #fff;
 }
