@@ -60,7 +60,7 @@ psk-files-chooser button {
     width: auto;
 }
 
-psk-files-chooser.evidence-file-chooser > button.btn {
+psk-files-chooser.result-file-chooser > button.btn {
     background-color: #FFFFFF;
     display: flex;
     align-items: center;
