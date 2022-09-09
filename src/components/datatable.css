@@ -106,7 +106,7 @@
     grid-template-columns: 4fr  1fr 100px;
 }
 
-.evidence-datatable .webc-datatable--container{
+.results-datatable .webc-datatable--container{
     grid-template-columns: repeat(5, 1fr);
 }
 
