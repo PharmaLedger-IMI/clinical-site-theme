@@ -38,8 +38,11 @@ main>.row-wrapper:nth-child(even) {
     display:flex;
 }
 
-.complete-procedures h6 {
+.complete-procedures label {
     color: var(--secondary);
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
 }
 
 /* start old general.css from econsent */
