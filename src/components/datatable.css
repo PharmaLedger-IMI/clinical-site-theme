@@ -228,6 +228,10 @@
     min-height: 325px;
 }
 
+.partial-confirmed {
+    color: white;
+}
+
 .notifications-datatable .webc-datatable--container{
     grid-template-columns: 4fr 1fr 1fr;
 }
