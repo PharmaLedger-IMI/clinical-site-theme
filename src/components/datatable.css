@@ -85,8 +85,18 @@
 .dt-9-col webc-datatable div.cell:nth-child(18n+6),
 .dt-9-col webc-datatable div.cell:nth-child(18n+7),
 .dt-9-col webc-datatable div.cell:nth-child(18n+8),
-.dt-9-col webc-datatable div.cell:nth-child(18n+9)
+.dt-9-col webc-datatable div.cell:nth-child(18n+9),
 
+.dt-10-col webc-datatable div.cell:nth-child(20n+1),
+.dt-10-col webc-datatable div.cell:nth-child(20n+2),
+.dt-10-col webc-datatable div.cell:nth-child(20n+3),
+.dt-10-col webc-datatable div.cell:nth-child(20n+4),
+.dt-10-col webc-datatable div.cell:nth-child(20n+5),
+.dt-10-col webc-datatable div.cell:nth-child(20n+6),
+.dt-10-col webc-datatable div.cell:nth-child(20n+7),
+.dt-10-col webc-datatable div.cell:nth-child(20n+8),
+.dt-10-col webc-datatable div.cell:nth-child(20n+9),
+.dt-10-col webc-datatable div.cell:nth-child(20n+10)
 
 {
     background: #c2ced8;
@@ -213,7 +223,7 @@
 
 .visits-procedures .webc-datatable--container {
     display: grid;
-    grid-template-columns: repeat(8, 2fr) 3fr;
+    grid-template-columns: repeat(9, 2fr) 3fr;
     align-content: start;
     min-height: 325px;
 }
