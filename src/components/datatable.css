@@ -223,8 +223,8 @@
 
 .visits-procedures .webc-datatable--container {
     display: grid;
-    grid-template-columns: repeat(9, 2fr) 3fr;
-    align-content: start;
+    grid-template-columns: 1fr 1.5fr repeat(4, 1fr) repeat(3, 3fr) 4fr;
+    align-content: center;
     min-height: 325px;
 }
 
