@@ -79,8 +79,14 @@ body,
 }
 
 .assigned-tp,
+.assigned-tp-device,
 .frequency-type{
     background: #155724;
+    color: #fff;
+}
+
+.tp-number-badge{
+    background: #036b7b;
     color: #fff;
 }
 
